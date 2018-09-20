@@ -15,6 +15,8 @@
 		F427A74C214F496F00D08C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F427A74A214F496F00D08C17 /* LaunchScreen.storyboard */; };
 		F427A757214F496F00D08C17 /* Articles_STC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427A756214F496F00D08C17 /* Articles_STC_AppTests.swift */; };
 		F427A762214F496F00D08C17 /* Articles_STC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427A761214F496F00D08C17 /* Articles_STC_AppUITests.swift */; };
+		F4EAED8F2152E7E9006B6F43 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EAED8E2152E7E9006B6F43 /* CustomCell.swift */; };
+		F4EAED912152E826006B6F43 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EAED902152E826006B6F43 /* ArticleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F427A75D214F496F00D08C17 /* Articles_STC_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Articles_STC_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F427A761214F496F00D08C17 /* Articles_STC_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles_STC_AppUITests.swift; sourceTree = "<group>"; };
 		F427A763214F496F00D08C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EAED8E2152E7E9006B6F43 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F4EAED902152E826006B6F43 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				F427A73F214F495900D08C17 /* AppDelegate.swift */,
 				F427A741214F495900D08C17 /* MasterViewController.swift */,
+				F4EAED8E2152E7E9006B6F43 /* CustomCell.swift */,
+				F4EAED902152E826006B6F43 /* ArticleModel.swift */,
 				F427A743214F495900D08C17 /* DetailViewController.swift */,
 				F427A745214F495900D08C17 /* Main.storyboard */,
 				F427A748214F496F00D08C17 /* Assets.xcassets */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F427A744214F495900D08C17 /* DetailViewController.swift in Sources */,
+				F4EAED912152E826006B6F43 /* ArticleModel.swift in Sources */,
 				F427A742214F495900D08C17 /* MasterViewController.swift in Sources */,
+				F4EAED8F2152E7E9006B6F43 /* CustomCell.swift in Sources */,
 				F427A740214F495900D08C17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
